@@ -148,6 +148,15 @@ body {
   background-color: var(--accent-color);
 }
 
+.examples a {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.examples a :hover,
+.examples a :focus {
+  color: var(--accent-color);
+}
+
 .address {
   font-size: 14px;
   line-height: 1.7;
