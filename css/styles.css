@@ -38,6 +38,7 @@ body {
 
 .page-header {
   background-color: #ffffff;
+  display: flex;
 }
 
 /* Site nav */
@@ -77,7 +78,16 @@ body {
 .list {
   list-style: none;
 }
+
 /* Hero */
+
+.hero {
+  text-align: center;
+  background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 280px;
+}
+
 .hero-title {
   color: #ffffff;
   font-weight: 900;
@@ -85,6 +95,7 @@ body {
   line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* Features */
@@ -93,6 +104,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .feature-list .text {
   font-size: 14px;
@@ -100,6 +112,7 @@ body {
 }
 
 /* Section */
+
 .section-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -119,7 +132,24 @@ body {
   font-size: 16px;
   line-height: 1.9;
 }
+.examples {
+  outline: 1px solid tomato;
+  padding: 0;
+  margin: 0;
 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.examples > .cards {
+  outline: 1px solid tomato;
+
+  flex-basis: cal(100%/3-15px);
+}
+.card {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .examples .title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -133,7 +163,9 @@ body {
   line-height: 1.9;
 }
 /* Button */
-
+.list {
+  display: flex;
+}
 .button {
   border-radius: 4px;
   padding: 10px 32px;
@@ -199,10 +231,15 @@ body {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-
+.infolink a:hover,
+.infolink a:focus {
+  color: var(--accent-color);
+}
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
 }
