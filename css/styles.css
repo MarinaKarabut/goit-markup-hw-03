@@ -20,6 +20,26 @@ body {
   letter-spacing: 0.03em;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+
+ul,
+ol {
+  margin: 0px;
+  padding: 0px;
+}
+
+imd {
+  display: block;
+}
+
 /* Logo */
 .logo {
   color: var(--title-text-color);
@@ -41,6 +61,8 @@ body {
 
   display: flex;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 /* Site nav */
@@ -115,7 +137,8 @@ margin-right: 0px;
   text-align: center;
   background-color: #2f303a;
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
+  margin: auto;
 }
 
 .hero-title {
@@ -129,6 +152,10 @@ margin-right: 0px;
 }
 
 /* Features */
+.section-feature {
+  padding-top: 94px;
+  padding-bottom: 47px;
+}
 .feature-list {
   padding: 0px;
   margin-left: -30px;
@@ -162,6 +189,11 @@ margin-right: 0px;
 }
 /* Services */
 
+.section-services {
+  padding-top: 47px;
+  padding-bottom: 94px;
+}
+
 .services {
   display: flex;
   flex-wrap: wrap;
@@ -177,6 +209,10 @@ margin-right: 0px;
 }
 
 /* Team */
+.section-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .team {
   display: flex;
   flex-wrap: wrap;
@@ -238,6 +274,7 @@ margin-right: 0px;
 .button {
   border-radius: 4px;
   padding: 10px 32px;
+  margin-top: 30px;
   min-width: 200px;
   height: 50px;
   text-align: center;
@@ -290,6 +327,8 @@ margin-right: 0px;
 /* Footer */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
 }
 .address {
