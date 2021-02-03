@@ -54,7 +54,8 @@ body {
 .page-header-container {
 display: flex;
 align-items: center;
-}  
+} 
+
 
 .site-nav {
   display: flex;
@@ -296,7 +297,7 @@ margin-right: 0px;
   font-style: normal;
 }
 
-.address .link {
+.infolink .link-adress {
   color: #ffffff;
   text-decoration: none;
 }
