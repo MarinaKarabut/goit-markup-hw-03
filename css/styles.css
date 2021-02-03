@@ -38,7 +38,7 @@ ol {
 
 img {
   display: block;
-  min-width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -165,7 +165,7 @@ margin-right: 0px;
   display: flex;
 }
 .feature-list > .feature {
-  flex-basis: calc(100% / 3-90px);
+  flex-basis: calc(100% / 3 -30px);
   margin-left: 30px;
 }
 .feature-list .title {
@@ -211,7 +211,7 @@ margin-right: 0px;
 }
 
 .services > .services-list {
-  flex-basis: calc(100% / 3-90px);
+  flex-basis: calc(100% / 3 -30px);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -229,7 +229,7 @@ margin-right: 0px;
   padding: 0;
 }
 .team > .team-cards {
-  flex-basis: calc(100% / 4-30px);
+  flex-basis: calc(100% / 4 -30px);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -265,17 +265,16 @@ margin-right: 0px;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
-  padding: 0;
 }
 
 .examples > .cards {
-  flex-basis: calc(100% / 3-90px);
+  flex-basis: calc(100% / 3 - 30px);
+  /*height: 404px;*/
+  height: 404px;
   margin-left: 30px;
   margin-top: 30px;
-}
-.card {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
 
 .examples .title {
@@ -291,10 +290,11 @@ margin-right: 0px;
 
 .examples .text {
   font-size: 16px;
-  line-height: 1.9;
-
-  /*margin-top: 4px;
-  margin-bottom: 20px;*/
+  line-height: 1.88;
+  margin-top: 4px;
+}
+.card-content {
+  padding: 20px 24px;
 }
 
 /* Button */
@@ -383,6 +383,9 @@ margin-right: 0px;
 .infolink .link:hover,
 .infolink .link:focus {
   color: var(--accent-color);
+}
+.footer-list {
+  display: flex;
 }
 .container {
   width: 1200px;
