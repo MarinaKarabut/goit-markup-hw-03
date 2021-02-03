@@ -36,8 +36,10 @@ ol {
   padding: 0px;
 }
 
-imd {
+img {
   display: block;
+  min-width: 100%;
+  height: auto;
 }
 
 /* Logo */
@@ -48,6 +50,7 @@ imd {
   font-weight: 700;
   line-height: 1.2;
   text-decoration: none;
+  margin-right: 93px;
 }
 
 .logo:hover {
@@ -70,6 +73,7 @@ imd {
 .navigation {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .page-header-container {
@@ -79,7 +83,6 @@ imd {
 
 .site-nav {
   display: flex;
-  margin-left: 93px;
 }
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
@@ -106,7 +109,6 @@ margin-right: 0px;
 }
 .info {
   display: flex;
-  margin-left: auto;
 }
 .info .item + .item {
   margin-left: 50px;
@@ -163,7 +165,7 @@ margin-right: 0px;
   display: flex;
 }
 .feature-list > .feature {
-  flex-basis: cal(100%/3-30px);
+  flex-basis: cal((100%-120px)/3);
   margin-left: 30px;
 }
 .feature-list .title {
@@ -172,10 +174,14 @@ margin-right: 0px;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-top: 94px;
+  margin-bottom: 10px;
 }
 .feature-list .text {
   font-size: 14px;
   line-height: 1.7;
+  margin-top: 10px;
+  margin-bottom: 94px;
 }
 
 /* Section */
@@ -186,6 +192,8 @@ margin-right: 0px;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 /* Services */
 
@@ -203,7 +211,7 @@ margin-right: 0px;
 }
 
 .services > .services-list {
-  flex-basis: cal(100%/3-30px);
+  flex-basis: cal((100%-90px)/3);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -221,7 +229,7 @@ margin-right: 0px;
   padding: 0;
 }
 .team > .team-cards {
-  flex-basis: cal(100%/4-30px);
+  flex-basis: cal((100%/-120px)/4);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -230,13 +238,20 @@ margin-right: 0px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
+  margin-top: 30px;
 }
 .team .text {
   font-size: 16px;
   line-height: 1.9;
+  margin-top: 10px;
 }
 
 /* Examples */
+.section-examples {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .examples {
   display: flex;
   flex-wrap: wrap;
@@ -246,7 +261,7 @@ margin-right: 0px;
 }
 
 .examples > .cards {
-  flex-basis: cal(100%/3-30px);
+  flex-basis: cal((100%-90px)/3);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -260,16 +275,21 @@ margin-right: 0px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 
 .examples .text {
   font-size: 16px;
   line-height: 1.9;
+  margin-top: 4px;
+  margin-bottom: 20px;
 }
 /* Button */
 .list-button {
   display: flex;
   justify-content: center;
+  padding-bottom: 34px;
 }
 .button {
   border-radius: 4px;
