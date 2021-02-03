@@ -141,7 +141,7 @@ margin-right: 0px;
 }
 .feature-list > .feature {
   
-  flex-basis: cal(100%/3-30px);
+  width: cal(100%/3-30px);
   margin-left: 30px;
   
 
@@ -178,7 +178,7 @@ margin-right: 0px;
 }
 
 .services > .services-list {
-  flex-basis: cal(100%/3-30px);
+  width: cal(100%/3-30px);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -192,7 +192,7 @@ margin-right: 0px;
   padding: 0;
 }
 .team > .team-cards {
-  flex-basis: cal(100%/4-30px);
+  width: cal(100%/4-30px);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -206,6 +206,8 @@ margin-right: 0px;
   font-size: 16px;
   line-height: 1.9;
 }
+
+/* Examples */
 .examples {
 
   display: flex;
@@ -216,7 +218,7 @@ margin-right: 0px;
 }
 
 .examples > .cards {
-  flex-basis: cal(100%/3-30px);
+  width: cal(100%/3-30px);
   margin-left: 30px;
   margin-top: 30px;
 }
