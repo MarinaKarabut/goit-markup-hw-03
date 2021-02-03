@@ -14,7 +14,7 @@
   --accent-color: #2196f3;
 }
 body {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -165,7 +165,7 @@ margin-right: 0px;
   display: flex;
 }
 .feature-list > .feature {
-  flex-basis: cal((100%-120px)/3);
+  flex-basis: calc(100% / 3-120px);
   margin-left: 30px;
 }
 .feature-list .title {
@@ -211,7 +211,7 @@ margin-right: 0px;
 }
 
 .services > .services-list {
-  flex-basis: cal((100%-90px)/3);
+  flex-basis: calc(100% / 3-90px);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -229,7 +229,7 @@ margin-right: 0px;
   padding: 0;
 }
 .team > .team-cards {
-  flex-basis: cal((100%/-120px)/4);
+  flex-basis: calc(100% / 4-120px);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -261,7 +261,7 @@ margin-right: 0px;
 }
 
 .examples > .cards {
-  flex-basis: cal((100%-90px)/3);
+  flex-basis: cal(100%/3-90px);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -269,6 +269,22 @@ margin-right: 0px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
+.card {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-text {
+  margin-top: 10px;
+}
+
 .examples .title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -298,6 +314,7 @@ margin-right: 0px;
   min-width: 200px;
   height: 50px;
   text-align: center;
+  border: 0px;
 
   color: #ffffff;
   background-color: var(--accent-color);
