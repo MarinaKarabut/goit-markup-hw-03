@@ -275,7 +275,7 @@ margin-right: 0px;
 }*/
 
 .list-button > .item:not(:last-child) {
-  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .examples .link {
