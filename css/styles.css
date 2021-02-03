@@ -136,7 +136,7 @@ margin-right: 0px;
   display: flex;
 }
 .feature-list > .feature {
-  width: cal(100%/3-30px);
+  flex-basis: cal(100%/3-30px);
   margin-left: 30px;
 }
 .feature-list .title {
@@ -171,7 +171,7 @@ margin-right: 0px;
 }
 
 .services > .services-list {
-  width: cal(100%/3-30px);
+  flex-basis: cal(100%/3-30px);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -185,7 +185,7 @@ margin-right: 0px;
   padding: 0;
 }
 .team > .team-cards {
-  width: cal(100%/4-30px);
+  flex-basis: cal(100%/4-30px);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -210,7 +210,7 @@ margin-right: 0px;
 }
 
 .examples > .cards {
-  width: cal(1 (00%-60px)/3);
+  flex-basis: cal(100%/3-30px);
   margin-left: 30px;
   margin-top: 30px;
 }
