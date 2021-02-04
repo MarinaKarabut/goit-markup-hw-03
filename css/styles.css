@@ -380,12 +380,23 @@ margin-right: 0px;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
+
+.infolink .linkcontacts {
+  margin-top: 20px;
+}
+
+.infolink .contactslink {
+  margin-top: 9px;
+}
+
 .infolink .link:hover,
 .infolink .link:focus {
   color: var(--accent-color);
 }
-.footer-list {
-  display: flex;
+.contacts-list {
+  width: 270px;
+  padding: 60px 0px;
+  align-items: center;
 }
 .container {
   width: 1200px;
@@ -395,4 +406,14 @@ margin-right: 0px;
   margin-right: auto;
 
   /*outline: 1px solid tomato; */
+}
+/*.linkcontacts {
+  margin-bottom: 9px;
+}
+
+.linkcontacts .link-adress() {
+  margin-top: 20px;
+}*/
+.contacts-list .logo {
+  margin-bottom: 20px;
 }
