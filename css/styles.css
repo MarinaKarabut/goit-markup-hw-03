@@ -177,14 +177,12 @@ margin-right: 0px;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  margin-top: 94px;
   margin-bottom: 10px;
 }
 .feature-list .text {
   font-size: 14px;
   line-height: 1.7;
   margin-top: 10px;
-  margin-bottom: 94px;
 }
 
 /* Section */
@@ -195,7 +193,6 @@ margin-right: 0px;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 /* Services */
@@ -214,7 +211,7 @@ margin-right: 0px;
 }
 
 .services > .services-list {
-  flex-basis: calc(100% / 3 -30px);
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -223,6 +220,7 @@ margin-right: 0px;
 .section-team {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: #f5f4fa;
 }
 .team {
   display: flex;
@@ -232,7 +230,7 @@ margin-right: 0px;
   padding: 0;
 }
 .team > .team-cards {
-  flex-basis: calc(100% / 4 -30px);
+  flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -273,7 +271,7 @@ margin-right: 0px;
 .examples > .cards {
   flex-basis: calc(100% / 3 - 30px);
   /*height: 404px;*/
-  height: 404px;
+  /*height: 404px;*/
   margin-left: 30px;
   margin-top: 30px;
   background: #ffffff;
@@ -304,7 +302,7 @@ margin-right: 0px;
 .list-button {
   display: flex;
   justify-content: center;
-  padding-bottom: 34px;
+  margin-bottom: 34px;
 }
 .button {
   border-radius: 4px;
@@ -355,10 +353,11 @@ margin-right: 0px;
   color: var(--primary-text-color);
   text-decoration: none;
 }
-.examples .link:hover,
+
+/*.examples .link:hover,
 .examples .link:focus {
   color: var(--accent-color);
-}
+}*/
 
 /* Footer */
 
