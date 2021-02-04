@@ -44,7 +44,7 @@ img {
 
 /* Logo */
 .logo {
-  color: var(--title-text-color);
+  color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-size: 26px;
   font-weight: 700;
@@ -53,6 +53,9 @@ img {
   margin-right: 93px;
 }
 
+.logo-color {
+  color: var(--title-text-color);
+}
 .logo:hover {
   color: var(--accent-color);
 }
@@ -358,6 +361,10 @@ margin-right: 0px;
 }
 
 /* Footer */
+
+.footer .logo-color {
+  color: #ffffff;
+}
 
 .footer {
   padding-top: 60px;
